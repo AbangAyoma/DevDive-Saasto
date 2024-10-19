@@ -1,0 +1,192 @@
+// imported scss
+@use "resets"; 
+@use "variable";
+
+body {
+    background: variable.$white;
+    color: variable.$deep-black;
+    font-size: 1rem;
+    line-height: 1;
+    height: 100%;
+    font-family: variable.$poppins-font;
+    // max-width: 1440px;
+    margin: 0 auto;
+}
+// ====main section======
+main{
+    overflow: hidden;
+}
+
+// ====header section======
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+
+    .logo {
+        margin-right: 150px;
+    }
+
+    .navigation {
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 48px;
+
+            li {
+                font-weight: 400;
+                text-transform: capitalize;
+                line-height: 24px;
+                color: green;
+            }
+        }
+    }
+    .nav-right {
+        button {
+            background: variable.$red;
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            color: variable.$white;
+            margin-left: 1rem;
+        }
+
+        a {
+            margin-left: 50px;
+            text-decoration: none;
+            color: variable.$red;
+        }
+    }
+}
+
+// ====hero section======
+.hero {
+    background: #fff8f2;
+    text-align: center;
+    padding: 6rem;
+    position: relative;
+    overflow: hidden;
+
+    .clock {
+        position: absolute;
+        left: 10%;
+        top: 5rem
+    }
+
+    .asset-5 {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .asset-2 {
+        position: absolute;
+        left: 35%;
+        top: 92%;
+    }
+
+    .asset-1 {
+        position: absolute;
+        left: 3%;
+        top: 2rem;
+    }
+
+    .asset-4 {
+        position: absolute;
+        top: 24%;
+        right: 12.5%;
+    }
+    .asset-3 {
+        position: absolute;
+        bottom: 0;
+        right: 30%;
+    }
+
+    .clipboard {
+        position: absolute;
+        bottom: 3rem;
+        right: 20%;
+    }
+    .phone-1{
+        position: absolute;
+        height: 400px;
+        left: 3rem;
+        top: 55%;
+        transform: rotate(-15deg);
+    }
+    
+
+    .header-text {
+        margin-inline: auto;
+        max-width: 800px;
+    }
+    h1 {
+        font-size: 64px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 50px;
+        line-height: 1.1;
+    }
+    .top {
+        position: relative;
+        z-index: 5;
+    }
+    .shape {
+        position: absolute;
+        left: 0;
+        top: 6.5rem;
+        bottom:-0.1rem;
+        z-index: -1;
+    }
+    p {
+        font-size: 20px;
+        margin-top: 30px;
+        max-width: 600px;
+        line-height: 2;
+        margin-inline: auto;
+    }
+    button {
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        margin-top: 1.5rem;
+        text-transform: capitalize;
+        background: variable.$red;
+        color: variable.$white;
+    }
+}
+.phone-2{
+    position: absolute;
+    height: 450px;
+    right: 0;
+    bottom: 1%;
+    rotate: (15deg);
+    z-index: 2;
+}
+
+// ====stat section======
+.stats-section{
+    position: relative;
+    .stats{
+        padding: 3rem 0;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        text-transform: capitalize;
+        gap: 5rem;
+        margin-right: 5rem;
+        
+        div{
+            z-index: 100;
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+        }
+    }
+}
+.special{
+    position: absolute;
+    left: 7rem;
+    top: 0;
+    z-index: 3;
+}

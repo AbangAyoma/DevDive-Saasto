@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  height: 100%;
+  font-size: 18px;
+}
+
+body {
+  background: #ffffff;
+  color: #1c0e0d;
+  font-size: 1rem;
+  line-height: 1;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+}
+
+main {
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0rem;
+}
+header .logo {
+  margin-right: 150px;
+}
+header .navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+}
+header .navigation ul li {
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 24px;
+  color: green;
+}
+header .nav-right button {
+  background: #ff553e;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  color: #ffffff;
+  margin-left: 1rem;
+}
+header .nav-right a {
+  margin-left: 50px;
+  text-decoration: none;
+  color: #ff553e;
+}
+
+.hero {
+  background: #fff8f2;
+  text-align: center;
+  padding: 6rem;
+  position: relative;
+  overflow: hidden;
+}
+.hero .clock {
+  position: absolute;
+  left: 10%;
+  top: 5rem;
+}
+.hero .asset-5 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.hero .asset-2 {
+  position: absolute;
+  left: 35%;
+  top: 92%;
+}
+.hero .asset-1 {
+  position: absolute;
+  left: 3%;
+  top: 2rem;
+}
+.hero .asset-4 {
+  position: absolute;
+  top: 24%;
+  right: 12.5%;
+}
+.hero .asset-3 {
+  position: absolute;
+  bottom: 0;
+  right: 30%;
+}
+.hero .clipboard {
+  position: absolute;
+  bottom: 3rem;
+  right: 20%;
+}
+.hero .phone-1 {
+  position: absolute;
+  height: 400px;
+  left: 3rem;
+  top: 55%;
+  transform: rotate(-15deg);
+}
+.hero .header-text {
+  margin-inline: auto;
+  max-width: 800px;
+}
+.hero h1 {
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+  line-height: 1.1;
+}
+.hero .top {
+  position: relative;
+  z-index: 5;
+}
+.hero .shape {
+  position: absolute;
+  left: 0;
+  top: 6.5rem;
+  bottom: -0.1rem;
+  z-index: -1;
+}
+.hero p {
+  font-size: 20px;
+  margin-top: 30px;
+  max-width: 600px;
+  line-height: 2;
+  margin-inline: auto;
+}
+.hero button {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  margin-top: 1.5rem;
+  text-transform: capitalize;
+  background: #ff553e;
+  color: #ffffff;
+}
+
+.phone-2 {
+  position: absolute;
+  height: 450px;
+  right: 0;
+  bottom: 1%;
+  rotate: 15deg;
+  z-index: 2;
+}
+
+.stats-section {
+  position: relative;
+}
+.stats-section .stats {
+  padding: 3rem 0;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  gap: 5rem;
+  margin-right: 5rem;
+}
+.stats-section .stats div {
+  z-index: 100;
+}
+.stats-section .stats h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.special {
+  position: absolute;
+  left: 7rem;
+  top: 0;
+  z-index: 3;
+}/*# sourceMappingURL=main.css.map */
