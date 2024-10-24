@@ -1,5 +1,4 @@
-// imported scss
-@use "resets"; 
+@use "resets";
 @use "variable";
 
 body {
@@ -9,15 +8,13 @@ body {
     line-height: 1;
     height: 100%;
     font-family: variable.$poppins-font;
-    // max-width: 1440px;
     margin: 0 auto;
 }
-// ====main section======
-main{
+
+main {
     overflow: hidden;
 }
 
-// ====header section======
 header {
     display: flex;
     justify-content: center;
@@ -36,12 +33,17 @@ header {
 
             li {
                 font-weight: 400;
-                text-transform: capitalize;
-                line-height: 24px;
-                color: green;
+
+                a{
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    line-height: 24px;
+                    color: green;
+                }
             }
         }
     }
+
     .nav-right {
         button {
             background: variable.$red;
@@ -49,6 +51,7 @@ header {
             border-radius: 2rem;
             color: variable.$white;
             margin-left: 1rem;
+            outline: none;
         }
 
         a {
@@ -59,7 +62,6 @@ header {
     }
 }
 
-// ====hero section======
 .hero {
     background: #fff8f2;
     text-align: center;
@@ -96,6 +98,7 @@ header {
         top: 24%;
         right: 12.5%;
     }
+
     .asset-3 {
         position: absolute;
         bottom: 0;
@@ -107,19 +110,21 @@ header {
         bottom: 3rem;
         right: 20%;
     }
-    .phone-1{
+
+    .phone-1 {
         position: absolute;
         height: 400px;
         left: 3rem;
         top: 55%;
         transform: rotate(-15deg);
     }
-    
+
 
     .header-text {
         margin-inline: auto;
         max-width: 800px;
     }
+
     h1 {
         font-size: 64px;
         font-weight: 700;
@@ -127,17 +132,20 @@ header {
         margin-bottom: 50px;
         line-height: 1.1;
     }
+
     .top {
         position: relative;
         z-index: 5;
     }
+
     .shape {
         position: absolute;
         left: 0;
         top: 6.5rem;
-        bottom:-0.1rem;
+        bottom: -0.1rem;
         z-index: -1;
     }
+
     p {
         font-size: 20px;
         margin-top: 30px;
@@ -145,16 +153,19 @@ header {
         line-height: 2;
         margin-inline: auto;
     }
+
     button {
         padding: 1rem 2rem;
         border-radius: 2rem;
         margin-top: 1.5rem;
+        outline: none;
         text-transform: capitalize;
         background: variable.$red;
         color: variable.$white;
     }
 }
-.phone-2{
+
+.phone-2 {
     position: absolute;
     height: 450px;
     right: 0;
@@ -164,9 +175,10 @@ header {
 }
 
 // ====stat section======
-.stats-section{
+.stats-section {
     position: relative;
-    .stats{
+
+    .stats {
         padding: 3rem 0;
         font-size: 18px;
         display: flex;
@@ -174,17 +186,19 @@ header {
         text-transform: capitalize;
         gap: 5rem;
         margin-right: 5rem;
-        
-        div{
+
+        div {
             z-index: 100;
         }
+
         h1 {
             font-size: 48px;
             font-weight: 700;
         }
     }
 }
-.special{
+
+.special {
     position: absolute;
     left: 7rem;
     top: 0;
