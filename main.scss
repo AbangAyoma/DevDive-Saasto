@@ -10,7 +10,9 @@ body {
     font-family: variable.$poppins-font;
     margin: 0 auto;
 }
-
+a{
+    text-decoration: none;
+}
 main {
     overflow: hidden;
 }
@@ -33,6 +35,7 @@ header {
 
             li {
                 font-weight: 400;
+                color: green;
 
                 a{
                     text-decoration: none;
@@ -174,7 +177,6 @@ header {
     z-index: 2;
 }
 
-// ====stat section======
 .stats-section {
     position: relative;
 
